@@ -1,10 +1,10 @@
 function handleConflict(a, b) {
-  let conflict = (b - a) * 20;
-  return conflict;
+  let sum = (a + b) * 5;
+  return sum;
 }
 function writingText(text) {
-  let info = text + " Sinh ngày: 26/08/2001";
-  console.log(info);
+  let newText = text + " 26/08/2001";
+  console.log(newText);
 }
 console.log(handleConflict(1, 2));
 writingText("Quang Sang 239");
