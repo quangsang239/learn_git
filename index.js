@@ -1,8 +1,10 @@
 function handleConflict(a, b) {
-  return a + b;
+  let sum = (a + b) * 5;
+  return sum;
 }
 function writingText(text) {
-  console.log(text);
+  let newText = text + " 26/08/2001";
+  console.log(newText);
 }
 console.log(handleConflict(1, 2));
 writingText("Quang Sang 239");
