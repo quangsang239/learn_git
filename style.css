@@ -1,0 +1,20 @@
+html {
+  font-size: 20px;
+}
+
+p {
+  color: red;
+}
+
+.header {
+  padding: 2rem;
+  background-color: black;
+}
+.header-inner {
+  color: white;
+}
+.header-inner-text {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
